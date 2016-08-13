@@ -1,0 +1,213 @@
+/*===========================
+GENERAL
+=============================*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrap {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/*===========================
+Banner
+=============================*/
+
+.banner {
+  background: url(../img/dc3.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 550px;
+  width: 100%;
+  padding: 40% 15%;
+  text-align: center;
+  border-bottom: 1px solid #999;
+}
+
+
+.banner h1 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 10px;
+  letter-spacing: 2px; 
+  margin-bottom: 35px;
+  text-transform: uppercase;
+  font-family: 'Varela', san-serif;
+  text-align: center;
+}
+
+.banner p {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 60px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  font-size: 15px;
+}
+
+.btn {
+  background: #000;
+  color: #fff;
+  padding: 15px 40px;
+  text-decoration: none;
+}
+
+/*================================
+NAVIGATION
+==================================*/
+
+.main-header {
+  background: #000;
+  width: 100%;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin: 0;
+}
+
+.main-nav a {
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-size: .95em;
+    text-align: center;
+  }
+
+  .main-nav a:hover, .main-nav li:active {
+  color: #1C9ED2;
+}
+
+.btn:hover, .btn:active {
+  background: #1C9ED2;
+}
+
+.logo {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  margin-top: 4px;
+}
+
+/*======================================
+About
+========================================*/
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.col {
+  line-height: 25px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.content, h2 {
+  text-align: left;
+}
+
+
+#first, #second {
+ width: 180px;
+ height: auto;
+}
+
+/*=================================
+FOOTER
+===================================*/
+
+.main-footer {
+  background: #000;
+  color: #fff;
+  padding: 2em 0;
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+/*=================================
+MEDIA QUERIES
+===================================*/
+
+@media (min-width: 769px) {
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1150px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.banner {
+  height: 150px;
+}
+
+.col {
+  float: left;
+  width: 50%;
+  padding-top: 20px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.main-header {
+  position: fixed;
+  box-shadow: 0 1px 4px rgba(0,0,0,.4);
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.main-nav li {
+  float: left;
+}
+
+.main-nav {
+  float: right;
+  margin-left: 12px;
+}
+
+.logo {
+  float: left;
+  margin-top: 4px;
+}
+
+
+.banner h1 {
+  font-size: 3em;
+  margin-top: -150px;
+}
+
+}
+
+
+
+
+
+
