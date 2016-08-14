@@ -26,7 +26,6 @@ a {
 }
 
 
-
 /*===========================
 Banner
 =============================*/
@@ -36,11 +35,12 @@ Banner
   background-repeat:no-repeat;
   background-size: cover;
   background-position:center;
-  height: 550px;
+  height: auto;
   width: 100%;
   padding: 40% 15%;
   text-align: center;
   border-bottom: 1px solid #999;
+
 }
 
 
@@ -78,36 +78,46 @@ NAVIGATION
 ==================================*/
 
 .main-header {
-  background: #000;
+  background: #3e474f;
   width: 100%;
   padding-top: .5em;
   padding-bottom: .5em;
   margin: 0;
+
 }
 
 .main-nav a {
-    color: #fff;
+    color: #b2bbbd;
     display: block;
     text-align: center;
     padding: 20px 15px;
     text-decoration: none;
     font-size: .95em;
     text-align: center;
+    font-weight: bold;
   }
 
   .main-nav a:hover, .main-nav li:active {
-  color: #1C9ED2;
+  color: #fff;
 }
 
 .btn:hover, .btn:active {
-  background: #1C9ED2;
+  background-color: #c00;
+}
+
+.btn {
+  color: #fff;
+  font-weight: bold;
 }
 
 .logo {
   margin: 0;
   text-align: center;
-  color: #fff;
+  color: #c00;
+  font-weight: normal;
   margin-top: 4px;
+  background-color: #3e474f;
+
 }
 
 /*======================================
@@ -142,12 +152,34 @@ FOOTER
 ===================================*/
 
 .main-footer {
-  background: #000;
-  color: #fff;
+  background: #3e474f;
+  color: #b2bbbd;
   padding: 2em 0;
   margin-top: 30px;
   text-align: center;
 }
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  color: #b2bbbd;
+
+}
+
+.main-footer img:hover {
+  background-color: #c00;
+  padding: 1px;
+}
+
+.designer a {
+  color: #b2bbbd ;
+}
+
+.main-footer p, .main-footer span {
+  font-size: .75em;
+}
+
 
 
 /*=================================
@@ -196,12 +228,19 @@ MEDIA QUERIES
 .logo {
   float: left;
   margin-top: 4px;
+  background-color: #c00;
+  color: #fff;
+  padding: 1px 5px;
 }
 
 
 .banner h1 {
   font-size: 3em;
   margin-top: -150px;
+}
+
+.main-footer p, .main-footer span {
+  font-size: 1em;
 }
 
 }
