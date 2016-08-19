@@ -47,6 +47,7 @@ Banner
 
 }
 
+/*Main Heading*/
 
 .banner h1 {
   font-size: 20px;
@@ -69,6 +70,8 @@ Banner
   text-align: center;
   font-size: 15px;
 }
+
+/*"Learn More" Btn*/
 
 .btn {
   border: 1px solid #dfe2e5;
@@ -153,11 +156,14 @@ Home Page-Content
   margin-top:  1em;
 }
 
+/*Graphic icons*/
 
 #first, #second, #third {
  width: 180px;
  height: auto;
 }
+
+
 
 /*=================================
 ABOUT PAGE
@@ -175,7 +181,7 @@ ABOUT PAGE
   border-bottom: 1px solid #999;
 }
 
-.about-heading,.events-heading {
+.about-heading, .events-heading {
   font-size: 20px;
   color: #fff;
   font-weight: 10px;
@@ -197,6 +203,7 @@ ABOUT PAGE
 .secondary ul {
   list-style-type: disc;
   list-style-position: inside;
+  text-align: left;
 }
 
 /*================================
@@ -213,6 +220,8 @@ EVENTS PAGE
   text-align: center;
   border-bottom: 1px solid #999;
   }
+
+
 .event-headline {
   text-align: center;
   text-decoration: underline;
@@ -223,7 +232,7 @@ EVENTS PAGE
   margin-top: 2em;
 }
 
-
+/*CALENDAR*/
 
 /* TABLE */
 /*--------------------------------------*/
@@ -307,6 +316,8 @@ table {
   color: #212121;
 }
 
+/*Hover over dates and selected dates*/
+
 .days:hover {
   background: #8a2929;
   color: #fff;
@@ -324,7 +335,45 @@ table {
   color: #fff;
 }
 
+/*================================
+MEMBERSHIP
+=================================*/
 
+.banner-membership {
+  background: url(../img/passion.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: auto;
+  max-width: 100%;
+  padding: 40% 15%;
+  text-align: center;
+  border-bottom: 1px solid #999;
+  }
+
+  .membership-headline  {
+  text-align: center:;
+  text-decoration: underline;
+}
+
+.membership-heading {
+  color: #fff;
+}
+
+.membership-announcement {
+  text-align: center;
+  margin-top: 2em;
+}
+
+#second-membership {
+  text-decoration: underline;
+}
+
+#form-pic {
+  margin-left: 4em;
+  width: 180px;
+  height: auto;
+}
 
 /*=================================
 FOOTER
@@ -375,7 +424,8 @@ MEDIA QUERIES
 
 .banner,
 .banner-about,
-.banner-events {
+.banner-events,
+.banner-membership {
   height: 150px;
 }
 
@@ -415,7 +465,8 @@ MEDIA QUERIES
 
 .banner h1,
 .banner-about,
-.banner-events {
+.banner-events,
+.banner-membership {
   font-size: 3em;
   margin-top: -150px;
 }
@@ -427,6 +478,7 @@ MEDIA QUERIES
 .events-heading {
   font-size: 1em;
 }
+
 
 
 .main-footer span {
