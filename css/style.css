@@ -175,7 +175,7 @@ ABOUT PAGE
   border-bottom: 1px solid #999;
 }
 
-.about-heading {
+.about-heading,.events-heading {
   font-size: 20px;
   color: #fff;
   font-weight: 10px;
@@ -189,6 +189,141 @@ ABOUT PAGE
 .about-content {
   text-align: left;
 }
+
+#second-about {
+  text-decoration: underline;
+}
+
+.secondary ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+/*================================
+EVENTS PAGE
+==================================*/
+.banner-events {
+  background: url(../img/meetup.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: auto;
+  width: 100%;
+  padding: 40% 15%;
+  text-align: center;
+  border-bottom: 1px solid #999;
+  }
+.event-headline {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.events-announcement {
+  text-align: center;
+  margin-top: 2em;
+}
+
+
+
+/* TABLE */
+/*--------------------------------------*/
+table {
+  width: 300px;
+  height: 300px;
+  background: #ebebeb;
+  margin: 50px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 50px rgba(0, 0, 0, .2);
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 0 50px rgba(0, 0, 0, .2);
+  -o-box-shadow: 0 0 50px rgba(0, 0, 0, .2);
+}
+
+
+
+/* MONTH */
+/*--------------------------------------*/
+.month {
+  background: #8a2929;
+  color: #fff;
+  font: 2em/1em arial;
+  height: 45px;
+  border-top: solid 10px #8a2929;
+}
+
+
+
+/* WEEKS */
+/*--------------------------------------*/
+.weeks {
+  background: #fff;
+  height: 40px;
+  font: 1em/1em arial;
+  color: #ff3c31;
+  text-align: center;
+}
+
+
+
+/* DAYS */
+/*--------------------------------------*/
+.week1 td {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font: 500 1em/1em arial;
+  color: #212121;
+}
+
+.week2 td {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font: 500 1em/1em arial;
+  color: #212121;
+}
+
+.week3 td {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font: 500 1em/1em arial;
+  color: #212121;
+}
+
+.week4 td {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font: 500 1em/1em arial;
+  color: #212121;
+}
+
+.week5 td {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font: 500 1em/1em arial;
+  color: #212121;
+}
+
+.days:hover {
+  background: #8a2929;
+  color: #fff;
+
+}
+
+.week3 .active, .week4 .active, .week5 .active, .week2 .active {
+  background-color: #8a2929;
+  cursor: pointer;
+  color: #fff;
+}
+
+.active a {
+  list-style: none;
+  color: #fff;
+}
+
 
 
 /*=================================
@@ -239,7 +374,8 @@ MEDIA QUERIES
 }
 
 .banner,
-.banner-about {
+.banner-about,
+.banner-events {
   height: 150px;
 }
 
@@ -271,19 +407,24 @@ MEDIA QUERIES
 .logo {
   float: left;
   margin-top: 4px;
-  background-color: #c00;
+  background-color: #8a2929;
   color: #fff;
   padding: 1px 5px;
 }
 
 
 .banner h1,
-.banner-about {
+.banner-about,
+.banner-events {
   font-size: 3em;
   margin-top: -150px;
 }
 
 .about-heading {
+  font-size: 1em;
+}
+
+.events-heading {
   font-size: 1em;
 }
 
@@ -359,6 +500,26 @@ MEDIA QUERIES
   animation: bounce 2s infinite;
 }
 
+
+table {
+  width: 400px;
+  height: 400px;
+  background: #ebebeb;
+  margin: 50px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 50px rgba(0, 0, 0, .2);
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 0 50px rgba(0, 0, 0, .2);
+  -o-box-shadow: 0 0 50px rgba(0, 0, 0, .2);
+}
+
+.events-announcement {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 1.25em;
+
+}
+
 }
 
 
@@ -380,6 +541,18 @@ MEDIA QUERIES
   width: 40px;
   height: 40px;
   background-size: contain;
+}
+
+table {
+  width: 500px;
+  height: 500px;
+  background: #ebebeb;
+  margin: 50px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 50px rgba(0, 0, 0, .2);
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 0 50px rgba(0, 0, 0, .2);
+  -o-box-shadow: 0 0 50px rgba(0, 0, 0, .2);
 }
 
 }
