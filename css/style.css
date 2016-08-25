@@ -40,7 +40,20 @@ NAVIGATION
   padding-top: .5em;
   padding-bottom: .5em;
   margin: 0;
+  top: 0;
+  position: fixed;
+  z-index: 1000;
+}
 
+.main-nav {
+  display: none;
+}
+
+.hamburger {
+  height: auto;
+  width: 160px;
+  position: absolute;
+  left: 50%;
 }
 
 .main-nav a {
@@ -54,6 +67,8 @@ NAVIGATION
   font-weight: bold;
   cursor: pointer;
 }
+
+
 
  .main-nav a:hover, .main-nav li:active {
   color: #fff;
@@ -75,7 +90,7 @@ NAVIGATION
 
 .logo {
   margin: 0;
-  text-align: center;
+  text-align: left;
   color: #c00;
   font-weight: normal;
   margin-top: 4px;
@@ -611,6 +626,7 @@ MEDIA QUERIES
     padding-right: 1em;
   }
 
+
   .banner,
   .banner-about,
   .banner-events,
@@ -794,7 +810,7 @@ MEDIA QUERIES
   .container {
     margin: 0 auto;
     width: 90%;
-    max-width: 2437px;
+    max-width: 1170px;
     padding-left: 1em;
     padding-right: 1em;
   }
