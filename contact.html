@@ -31,46 +31,46 @@
     </header> <!--/main-header-->
 
     <div class="container clearfix" data-section="contact">
-        <div class="column">
-         <form action="./" method="post">
-            <div class="box clearfix">
-              <h1>Contact Us</h1>
+      <!-- Details -->
+      <div class="column">
+        <div class="card clearfix">
+          <h1>Contact Details</h1>
+            <ul class=" center contact-info">
+              <li class="phone"><a href="tel:443-760-7092">(123) 456-7890</a></li>
+              <li class="mail"><a href="mailto:example@email.com">info@dcfd.com</a></li>
+              <li class="twitter"><a href="https://twitter.com">@twitter</a></li>
+              <li class="pin"><a href="https://www.google.com/maps" target="_blank">123 Web Street NW Washington, DC 20007</a></li>
+            </ul>
+        </div>
+      </div>
+        <!-- Form -->
+      <div class="column">
+        <form action="./" method="post">
+          <div class="box clearfix">
+            <h1>Contact Us</h1>
+            <label>
+              <span>Full name *</span>
+              <input type="text" class="input_text" name="name" id="name"/>
+            </label>
 
-              <label>
-               <span>Full name *</span>
-               <input type="text" class="input_text" name="name" id="name"/>
-              </label>
+            <label>
+              <span>Email *</span>
+              <input type="text" class="input_text" name="email" id="email"/>
+            </label>
 
-              <label>
-               <span>Email *</span>
-               <input type="text" class="input_text" name="email" id="email"/>
-              </label>
-
-              <label>
+            <label>
                 <span>Subject *</span>
                 <input type="text" class="input_text" name="subject" id="subject"/>
-              </label>
+            </label>
 
-              <label>
-                <span>Message *</span>
-                <textarea class="message" name="feedback" id="feedback"></textarea>
-                <input type="submit" class="button" value="Send" />      
-              </label>
-            </div> <!--box-->
-          </form>
-        </div> <!--column1-->
-
-        <div class="column">
-          <div class="card clearfix">
-            <h1>Contact Details</h1>
-              <ul class=" center contact-info">
-                <li class="phone"><a href="tel:443-760-7092">(123) 456-7890</a></li>
-                <li class="mail"><a href="mailto:example@email.com">info@dcfd.com</a></li>
-                <li class="twitter"><a href="https://twitter.com">@twitter</a></li>
-                <li class="pin"><a href="https://www.google.com/maps" target="_blank">123 Web Street NW Washington, DC 20007</a></li>
-              </ul>
-          </div>
-        </div>
+            <label>
+              <span>Message *</span>
+              <textarea class="message" name="feedback" id="feedback"></textarea>
+              <input type="submit" class="button" value="Send" />      
+            </label>
+          </div> <!--box-->
+        </form>
+      </div> <!--column-->
     </div> <!--container Ends-->
 
   <footer class="main-footer">
@@ -82,6 +82,7 @@
       class="social-icon"></a>
     <span class="copy">&copy; 2016 DCFD</span>
   </footer>
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
 </body>
