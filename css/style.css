@@ -49,11 +49,17 @@ NAVIGATION
   display: none;
 }
 
+.main-nav.active{
+  display: block;
+}
+
 .hamburger {
-  height: auto;
-  width: 160px;
-  position: absolute;
-  left: 50%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: auto;
+    width: 27px;
+    display: block;
 }
 
 .main-nav a {
@@ -95,8 +101,8 @@ NAVIGATION
   font-weight: normal;
   margin-top: 4px;
   background-color: #000;
-
 }
+
 
 /*======================================
 Home Page
@@ -650,6 +656,11 @@ MEDIA QUERIES
   .main-nav {
     float: right;
     margin-left: 12px;
+    display: block;
+  }
+
+  .hamburger {
+    display: none;
   }
 
   .logo {
